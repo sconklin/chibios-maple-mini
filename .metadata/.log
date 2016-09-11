@@ -1,0 +1,13 @@
+!SESSION 2016-09-07 18:30:04.740 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -data file:/home/sconklin/projects/ChibiOS_16.1.5/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-09-08 19:41:35.751
+!MESSAGE Indexed 'Maple Mini' (2 sources, 4 headers) in 0.37 sec: 62 declarations; 278 references; 8 unresolved inclusions; 1 syntax errors; 117 unresolved names (26%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-09-08 19:44:40.298
+!MESSAGE Indexed 'Maple Mini' (2 sources, 87 headers) in 1.24 sec: 2,365 declarations; 4,039 references; 11 unresolved inclusions; 18 syntax errors; 1,024 unresolved names (14%)

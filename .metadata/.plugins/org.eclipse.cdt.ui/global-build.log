@@ -1,0 +1,6 @@
+16:27:53 **** Clean-only build of configuration Default for project Maple Mini ****
+make -j4 clean 
+Cleaning
+rm -fR .dep build
+
+Done

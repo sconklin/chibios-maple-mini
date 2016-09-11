@@ -1,0 +1,15 @@
+# This is a generated file. Please do not edit.
+
+.PHONY: all
+
+COMMANDS := 	\
+	    scd_cmd_1
+
+all: $(COMMANDS)
+
+scd_cmd_1:
+	@echo begin generating scanner info for $@
+	arm-none-eabi-gcc -mcpu=cortex-m3 -O2 -D 'USE_MAPLEMINI_BOOTLOADER=1' -D 'CORTEX_USE_FPU=FALSE' -D 'THUMB_PRESENT=1' -mno-thumb-interwork -D 'THUMB_NO_INTERWORKING=1' -I "/home/sconklin/projects/ChibiOS_16.1.5/demos/STM32/RT-STM32F103-MAPLEMINI" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/common/ports/ARMCMx/compilers/GCC" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/common/ports/ARMCMx/devices/STM32F1xx" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/ext/CMSIS/include" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/ext/CMSIS/ST/STM32F1xx" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/rt/include" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/rt/ports/ARMCMx" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/rt/ports/ARMCMx/compilers/GCC" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/osal/rt" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/include" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/ports/common/ARMCMx" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/ports/STM32/STM32F1xx" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/ports/STM32/LLD/CANv1" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/ports/STM32/LLD/DACv1" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/ports/STM32/LLD/DMAv1" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/ports/STM32/LLD/EXTIv1" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/ports/STM32/LLD/GPIOv1" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/ports/STM32/LLD/I2Cv1" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/ports/STM32/LLD/RTCv1" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/ports/STM32/LLD/SDIOv1" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/ports/STM32/LLD/SPIv1" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/ports/STM32/LLD/TIMv1" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/ports/STM32/LLD/USARTv1" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/ports/STM32/LLD/USBv1" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/ports/STM32/LLD/xWDGv1" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/boards/MAPLEMINI_STM32_F103" -I "/home/sconklin/projects/ChibiOS_16.1.5/test/rt" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/hal/lib/streams" -I "/home/sconklin/projects/ChibiOS_16.1.5/os/various" -E -P -v -dD specs.c
+	@echo end generating scanner info for $@
+
+
